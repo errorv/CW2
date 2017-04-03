@@ -10,13 +10,13 @@ namespace CW2._2
     {
         static void Main(string[] args)
         {
-            Rzezimieszek DP1 = new Rzezimieszek("Yasuo", 100, 20, Bohater.Rasa.Wojownik, 20);
-            Mag DP2 = new Mag("Veigar", 70, 10, Bohater.Rasa.Czlowiek, 80);
+            Rzezimieszek DP1 = new Rzezimieszek("Yasuo", 200, 40, Bohater.Rasa.Wojownik, 40);
+            Mag DP2 = new Mag("Veigar", 70, 30, Bohater.Rasa.Czlowiek, 80);
             Wojownik DP3 = new Wojownik("Zed", 130, 40, Bohater.Rasa.Czlowiek);
 
             Rzezimieszek U1 = new Rzezimieszek("Diana", 50, 10, Bohater.Rasa.Mag, 20);
-            Mag U2 = new Mag("Ahri", 80, 10, Bohater.Rasa.Mag, 100);
-            Wojownik U3 = new Wojownik("Galio", 150, 40, Bohater.Rasa.Mag);
+            Mag U2 = new Mag("Ahri", 80, 30, Bohater.Rasa.Mag, 100);
+            Wojownik U3 = new Wojownik("Galio", 60, 40, Bohater.Rasa.Mag);
 
 
             List<Bohater> Drużyna_Pierścienia = new List<Bohater>();
